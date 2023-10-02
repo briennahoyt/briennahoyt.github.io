@@ -1,8 +1,121 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./Resources/CSS/index.css">
+    "
+    <title>Facts about HTML and CSS</title>
+</head>
+<body class="body">
+    <div class="banner">
+        <h1>Come With Me and You will See a World full of Coding Information</h1>
+    </div>
+    
+    <div>
+        <h2 class="h2">What is HTML?</h2>
+        <p>HTML stands for HyperText Markup Language, it is the structure of all web pages.
+           HTML consists of a series of elements.  These elements tell the browser how to display the 
+           content.  If you are wanting to make your first website, learning HTML is where you should 
+           start.</p>
+        <h3 class="h3">Structure</h3>
+        <p>HTML is organized into a family tree structure. 
+           HTML elements can have parents, grandparents, siblings, children, grandchildren, etc.
+           Below is an image of the HTML tree structure.  Your code will always begin with the declaration &lt;!DOCTYPE html&gt;. 
+           The image also shows us which tags are nested in the tree structure.</p>
+       <img id="tree" src="https://i.ytimg.com/vi/90kC1YLNF3U/maxresdefault.jpg" alt="">
+        <h3 class="h3">Elements, Tags, & Attributes</h3>
+        <p>There are 142 HTML tags within the latest HTML version, HTML 5.2. Only 115 tags are deemed functional and usable within any 
+           HTML code. These tags indicate the beginning and end of an HTML element that serves as a node within the DOM to define the 
+           structure of a webpage.</p>
+           
+          <div>
+           <table>
+                   <tr>
+                     <th scope="col">HTML Tags</th>
+                     <th scope="col">HTML Elements</th>
+                     <th scope="col">HTML Attributes</th> 
+                   </tr>
+                 <thead>  
+                 <tbody>
+                   <tr>
+                    <td>HTML Tags are used to hold the HTML element.</td>
+                    <td>HTML element holds the content.</td>
+                    <td>HTML attributes are used to describe the characteristic of an HTML element in detail</td>
+                     
+                   </tr>
+                 </thead>
+                   <tr>
+                    <td>HTML Tags start with &lt; and end with &gt;.</td>
+                    <td>Whatever written within a HTML tag are HTML elements.</td>
+                    <td>HTML attributes are found ony in the starting tag.</td>
+                   </tr>
+                   <tr>
+                    <td>HTML tags are almost like keywords where every single tag has unique meaning.</td>
+                    <td>HTML elements specifies the general content.</td>
+                    <td>HTML attributes specify various additional properties to the existing HTML element</td>
+                   </tr>
+                 </tbody>
+               </table>
+          </div>
+        <h3 class="h3">HTML Tidbits</h3>
+        <ul>
+            <li>The &lt;!DOCTYPE html&gt; declaration should always be the first line of code in your HTML files. 
+                This lets the browser know what version of HTML to expect.</li>
+            <li>The &lt;html&gt; element will contain all of your HTML code.</li>
+            <li>Information about the web page, like the title, belongs within the &lt;head&gt; of the page.</li>
+            <li>You can add a title to your web page by using the  elemen&lt;title&gt;t, inside of the head.</li>
+            <li>A webpage’s title appears in a browser’s tab.</li>
+            <li>Anchor tags (&lt;a&gt;) are used to link to internal pages, external pages or content on the same page.</li>
+            <li>You can create sections on a webpage and jump to them using &lt;a&gt; tags and adding id (s) to the elements you wish to jump to.</li>
+            <li>Whitespace between HTML elements helps make code easier to read while not changing how elements appear in the browser.</li>
+            <li>Indentation also helps make code easier to read. It makes parent-child relationships visible.</li>
+            <li>Comments are written in HTML using the following syntax: &lt;!-- comment --&gt;.</li>
+        </ul>
 
-<body>
-  <h1>Brienna Hoyt</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+        <p>You can think of HTML as the backone of website design and function.</p>
+        <p>Next we will find out how to turn our website from ordinary to extraordinary!</p>
+    </div>
+    <embed src="https://media.giphy.com/media/Tt9jctxaVjRny/giphy.gif"/>
+    <div>
+    <h2 class="h2">What is CSS?</h2>
+    <p>CSS, short for Cascading Style Sheets, is a style sheet language used to style websites. Colors, fonts, and page layouts for a site 
+       can all be managed using CSS. The more comfortable you are with CSS, the better equipped you will be to create an appealing website.</p>
+    <h3 class="h3">Selectors and Visual Rules</h3>
+    <p>A selector is used to target the specific HTML element(s) to be styled by the declaration.  The three most common CSS selectors are the id Selector, class Selector, and element Selector.</p> 
+       <p>Visual rules are guidelines that show you how to style elements and incorporate other features to achieve the styles you desire.</p>
+    <h3 class="h3">Styling with CSS</h3>
+    <p>Below is a list of CSS visual rules you can use to alter text and images on a website</p>
+    <ul>
+        <li>The font-family property defines the typeface of an element.</li>
+        <li>font-size controls the size of text displayed.</li>
+        <li>font-weight defines how thin or thick text is displayed.</li>
+        <li>The text-align property places text in the left, right, or center of its parent container.</li>
+        <li>Text can have two different color attributes: color and background-color. color defines the color of the text, while background-color defines the color behind the text.</li>
+        <li>CSS can make an element transparent with the opacity property.</li>
+        <li>CSS can also set the background of an element to an image with the background-image property.</li>
+        <li>The !important flag will override any style, however it should almost never be used, as it is extremely difficult to override.</li>
+    </ul>
+    <h3 class="h3">Linking the CSS File</h3>
+    <p>When HTML and CSS codes are in separate files, the files must be linked. Otherwise, the HTML file won’t be able to locate the CSS code, and the styling will not be applied.
+        You can use the &lt;link&gt; element to link HTML and CSS files together. The &lt;link&gt; element must be placed within the head of the HTML file. It is a self-closing tag and requires the following attributes:</p>
+        <ol>
+            <li>href — like the anchor element, the value of this attribute must be the address, or path, to the CSS file.</li>
+            <li>rel — this attribute describes the relationship between the HTML file and the CSS file. Because you are linking to a stylesheet, the value should be set to stylesheet.</li>
+        </ol>
+    <p>Example: &lt;link href='https://www.codecademy.com/stylesheets/style.css' rel='stylesheet'&gt;</p>
+    <h3 class="h3">CSS Tidbits</h3>
+    <ul>
+        <li>An external stylesheet separates CSS code from HTML, by using the .css file extension.</li>
+        <li>External stylesheets are the best approach when it comes to using HTML and CSS</li>
+        <li>CSS inline styles can be written inside the opening HTML tag using the style attribute.</li>
+        <li>Inline styles can be used to style HTML, but it is not the best practice.</li>
+    </ul>
+    </div>
+
+    <div class="footer">
+    <footer>HTML and CSS Resources
+    <p>To learn more about HTML <a href="https://www.codecademy.com/resources/docs/html">Click here</a></P>
+    <p>To learn more about CSS <a href="https://www.codecademy.com/resources/docs/css">Click here</a></p>
+    </footer>
+    </div>
 </body>
 </html>

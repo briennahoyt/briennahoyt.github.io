@@ -1,0 +1,62 @@
+.banner{
+    background-color: ;
+    color: rgba(255, 255, 0, 0.651);
+    font-size: 60px;
+    
+}
+
+.h2{
+   background-color: ;
+   color: white;
+   font-size: 50px;
+    
+}
+
+.body{
+    background-image: url(https://img.freepik.com/free-vector/flat-design-purple-swirl-background_23-2149987254.jpg?size=626&ext=jpg&ga=GA1.1.1468038164.1696003573&semt=ais);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.h3{
+    background-color: ;
+    color: saddlebrown;
+    font-size: 30px;
+}
+
+table, th, td{
+border: 1px solid;
+
+}
+
+table{
+    width: 100%;
+    background-color: dodgerblue;
+}
+
+th{
+    height: 70px;
+    background-color: lawngreen;
+}
+
+td{
+    text-align: center;
+    background-color: darkorange;
+}
+.footer{
+    color: darkmagenta;
+
+}
+
+p{
+    text-align: left;
+    color: lawngreen;
+    background-color: rgba(30, 143, 255, 0.3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+https://www.codecademy.com/resources/docs/html/elements
